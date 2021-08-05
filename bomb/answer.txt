@@ -1,0 +1,17 @@
+Border relations with Canada have never been better.
+
+1 2 4 8 16 32
+
+3 256 or 4 389 ..여러가지 있다.
+
+7 0
+
+yonefg   //maduersnfotvbyl 에서 flyers에 해당하는 번째(i), 하위 4비트가 i인 아스키코드값 쓰자
+
+4 3 2 1 6 5
+//linked lis
+//0x6032d0 0x6032e0 0x6032f0 0x603300 0x603310 0x603220 에 저장된 값
+//0x14c		0xa8	0x39c	0x2b3		0x1dd 	0x1bb
+//내림차순
+//3 4 5 6 1 2
+//여기서 중간에 7과의 차이 코드가 있었으므로 바꿔주면 답
