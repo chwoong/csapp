@@ -1,0 +1,27 @@
+1. Running './dlc -z' to identify coding rules violations.
+
+2. Running './bddcheck/check.pl -g' to determine correctness score.
+
+3. Running './dlc -Z' to identify operator count violations.
+
+4. Running './bddcheck/check.pl -g -r 2' to determine performance score.
+
+5. Running './dlc -e' to get operator count of each function.
+
+Correctness Results	Perf Results
+Points	Rating	Errors	Points	Ops	Puzzle
+0	1	1	0	7	bitXor
+1	1	0	2	1	tmin
+2	2	0	2	9	isTmax
+2	2	0	2	7	allOddBits
+2	2	0	2	2	negate
+3	3	0	2	12	isAsciiDigit
+3	3	0	2	7	conditional
+3	3	0	2	16	isLessOrEqual
+4	4	0	2	7	logicalNeg
+4	4	0	2	32	howManyBits
+4	4	0	2	20	float_twice
+4	4	0	2	29	float_i2f
+4	4	0	2	17	float_f2i
+
+Score = 60/63 [36/37 Corr + 24/26 Perf] (166 total operators)
